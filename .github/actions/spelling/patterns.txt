@@ -30,6 +30,9 @@
 # macOS file path
 (?:Contents\W+|(?!iOS)/)MacOS\b
 
+# pass(ed|ing) in
+\bpass(?:ed|ing) in\b
+
 # Python package registry has incorrect spelling for macOS / Mac OS X
 "Operating System :: MacOS :: MacOS X"
 
